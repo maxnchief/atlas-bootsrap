@@ -1,6 +1,6 @@
 Before we begin the inspiration for this site was inspired by this image: 
 
-![Inspiration](inspiration.jpg)
+![Inspiration](images/inspiration.jpg)
 
 This site is created with HTML using bootsrap and a tiny amount of CSS. All of the styling is done in the index file.
 
