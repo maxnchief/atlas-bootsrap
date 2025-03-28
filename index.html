@@ -15,6 +15,12 @@
             background: #016d44;
         }
 
+        footer {
+            background: #020258;
+            color: #fff;
+            padding: 2rem 0;
+        }
+
     </style>
     <body>
         <div>
@@ -28,7 +34,7 @@
                             <a href="#" class="nav-link">Micro-Irrigatioin</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Drip Irrigation</a>
+                            <a href="#" class="nav-link">Subirrigation</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Sprinkler Irrigation</a>
@@ -69,8 +75,18 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
         </div>
-        <div class="container">
-            <h1>Free space</h1>
+        <div class="container d-flex justify-content-center mb-5">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Types of Irrigation
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Surface Irrigation</a>
+                <a class="dropdown-item" href="#">Micro-Irrigatioin</a>
+                <a class="dropdown-item" href="#">Subirrigation</a>
+                <a class="dropdown-item" href="#">Sprinkler Irrigation</a>
+                </div>
+            </div>
         </div>
         <!-- 4 item Carousel -->            
         <div id="fourBoxes" class="carousel slide" data-ride="carousel">
@@ -82,27 +98,31 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <div class="container">
+                <div class="container d-flex flex-column align-items-center mt-5 justify-content-around">
                     <h1>Sprinkler Irrigation</h1>
-                    <p>lorem ipsum</p>
+                    <img src="images/sprinkler irrigate.jpg" alt="sprinklers" width="600" height="300">
+                    <h6>In sprinkler or overhead irrigation, water is piped to one or more central locations within the field and distributed by overhead high-pressure sprinklers or guns.</h6>
                 </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container">
+                    <div class="container container d-flex flex-column align-items-center mt-5 justify-content-around">
                         <h1>Surface Irrigation</h1>
-                        <p>lorem ipsum</p> 
+                        <img src="images/real surface iiragate.JPG" alt="surface irrigation" width="600" height="300">
+                        <h6>Surface irrigation, also known as gravity irrigation, is the oldest form of irrigation and has been in use for thousands of years. In surface (furrow, flood, or level basin) irrigation systems, water moves across the surface of agricultural lands, in order to wet it and infiltrate into the soil.</h6> 
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container">
+                    <div class="container container d-flex flex-column align-items-center mt-5 justify-content-around">
                         <h1>Micro-Irrigatioin</h1>
-                        <p>lorem ipsum</p>
+                        <img src="images/micro irrigate.png" alt="micro irrigation" width="600" height="300">
+                        <h6>Micro-irrigation, sometimes called localized irrigation, low volume irrigation, or trickle irrigation is a system where water is distributed under low pressure through a piped network, in a pre-determined pattern, and applied as a small discharge to each plant or adjacent to it.</h6>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="container">
-                        <h1>Drip Irrigation</h1>
-                        <p>lorem ipsum</p>
+                <div class="carousel-item ">
+                    <div class="container container d-flex flex-column align-items-center mt-5 justify-content-around">
+                        <h1>Subirrigation</h1>
+                        <img src="images/the last irrigate.jpeg" alt="Subirrigation" width="600" height="300">
+                        <h6>Subirrigation has been used for many years in field crops in areas with high water tables. It is a method of artificially raising the water table to allow the soil to be moistened from below the plants' root zone.</h6>
                     </div>
                 </div>
             </div>
@@ -114,4 +134,18 @@
             </a>
         </div>
     </body>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="row-md-4">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
