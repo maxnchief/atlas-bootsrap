@@ -15,5 +15,5 @@ As hinted at above, the Multiple Item Carousel is bellow the free section.
 The footer is squared away neatly at the bottom of the page
 
 
-Here is the hosted link for the site:
+Here is the hosted link for the site: https://maxnchief.github.io/atlas-bootsrap/
 
