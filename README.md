@@ -12,3 +12,8 @@ Free section is sandwiched between the two carousels
 
 As hinted at above, the Multiple Item Carousel is bellow the free section.
 
+The footer is squared away neatly at the bottom of the page
+
+
+Here is the hosted link for the site:
+
