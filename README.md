@@ -8,7 +8,7 @@ The header to grade is just the nav bar at the top of the page
 
 Single item carousel is the quotes beneath that
 
-Free section is sandwiched between the two carousels
+A dropdown button is sandwiched between the two carousels
 
 As hinted at above, the Multiple Item Carousel is bellow the free section.
 
